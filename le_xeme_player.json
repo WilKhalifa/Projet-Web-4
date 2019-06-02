@@ -1,0 +1,36 @@
+[
+{"type":"header","version":"4.8.5","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"le_xeme_player"},
+{"type":"table","name":"chatroom","database":"le_xeme_player","data":
+[
+
+]
+}
+,{"type":"table","name":"dispo","database":"le_xeme_player","data":
+[
+
+]
+}
+,{"type":"table","name":"knex_migrations","database":"le_xeme_player","data":
+[
+{"id":"3","name":"20190507121028_create_table.js","batch":"1","migration_time":"2019-05-07 14:44:10"},
+{"id":"4","name":"20190507121252_encrypt_user_password.js","batch":"1","migration_time":"2019-05-07 14:44:10"},
+{"id":"5","name":"20190507132535_references.js","batch":"1","migration_time":"2019-05-07 14:44:10"}
+]
+}
+,{"type":"table","name":"knex_migrations_lock","database":"le_xeme_player","data":
+[
+{"index":"1","is_locked":"0"}
+]
+}
+,{"type":"table","name":"messages","database":"le_xeme_player","data":
+[
+
+]
+}
+,{"type":"table","name":"user","database":"le_xeme_player","data":
+[
+{"id":"1","mail":"test@mail.com","created_at":"2019-05-07 14:45:29","updated_at":"2019-05-07 14:45:29","age":null,"salt":"e7391a42","encrypted_password":"a4d83c25e46c600adcbda38517798bc4706c5178566e6a257c1c30e6300eb5f6f391c88a9807eb6ee0aedcb5f6bb5c916e7ffba3b207d9b023162ca41651949c","id_dispo":null}
+]
+}
+]
